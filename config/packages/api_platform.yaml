@@ -1,0 +1,23 @@
+api_platform:
+    title: EAV API
+    description: API for integrating with eav 
+    version: 0.1.0
+    mapping:
+        paths: ['%kernel.project_dir%/src/Entity']
+    patch_formats:
+        json: ['application/merge-patch+json']
+    swagger:
+        versions: [3]
+
+    openapi:
+        # The contact information for the exposed API.
+        contact:
+            # The identifying name of the contact person/organization.
+            name: Senet Eindhoven B.V.
+            # The URL pointing to the contact information. MUST be in the format of a URL.
+            url: https://www.senet.nl
+            # The email address of the contact person/organization. MUST be in the format of an email address.
+            email: support@senet.nl
+        # A URL to the Terms of Service for the API. MUST be in the format of a URL.
+        termsOfService: https://www.senet.nl/algemene-voorwaarden/
+        

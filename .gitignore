@@ -1,0 +1,4 @@
+/.db-data
+/vendor
+/var/log/*
+/var/cache/*
